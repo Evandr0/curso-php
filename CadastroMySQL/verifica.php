@@ -39,7 +39,7 @@ if ($row == ""){
     exit;
 
 } else {
-    echo "<br> Bem vindo '$login' </br>";
+    echo "<br> Bem vindo <b>'$login'</b> </br>";
 }
 
 echo "<p> Testeeee";
