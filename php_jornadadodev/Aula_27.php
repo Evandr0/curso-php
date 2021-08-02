@@ -28,7 +28,7 @@
         echo "diferente";
         var_dump(10 != 10);
         var_dump(10 != 11);
-        var_dump(10 <> 10); // outra notação para operadora diferente de:
+        var_dump(10 <> 10); // outra notação para operador diferente de:
 
 
         if(isset($_POST["idade"])){
