@@ -28,24 +28,25 @@
         echo "diferente";
         var_dump(10 != 10);
         var_dump(10 != 11);
-        var_dump(10 <> 10); // outra notação para operador diferente de:
+        var_dump(10 <> 10); // outra notação para operador diferente de
+        
+        echo "<br>identico";
+        var_dump(10 === 10);
+        var_dump(10 === "10");
 
+        echo "<br>Nao identico";
+        var_dump(10 !==10);
+        var_dump(10 !== "10");
 
-        if(isset($_POST["idade"])){
-            echo $_POST["idade"];
-            $idade = $_POST["idade"];
-            echo "<br>";
+        echo "<br>Menor e Maior";
+        var_dump(10 < 10);
+        var_dump(10 > 10);
 
-            if($idade < 18) {
-                echo "A pessoa é de menor idade.";
+        echo "<br>Maior ou igual";
+        var_dump(10 >= 10);
 
-            } else if ($idade >=18 and $idade < 60){
-                echo "É uma pessoa adulta";
-            } else {
-                echo "É uma pessoa da terceira idade.";
-            }
-        }
-
+        echo "<br>menor ou igual";
+        var_dump(10 <= 10);
 
 
     ?>
