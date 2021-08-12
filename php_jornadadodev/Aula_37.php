@@ -12,6 +12,10 @@
         */
         $x++; //Pos incremento
         ++$x; //Pré-incremento
+
+        $x--;
+        --$x;
+
         
 
 
