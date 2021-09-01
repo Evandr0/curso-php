@@ -8,7 +8,7 @@
     </head>
     <body>
     <?php
-        /*Aula 27 - Aula 28 - Operadores Lógicos
+        /*- Aula 28 - Operadores Lógicos
         
         Conjunção - E (&& ou and) = Se ambas forem verdadeiras
         Disjunção - OU (|| ou or) = Se uma das duas forem verdadeiras.
