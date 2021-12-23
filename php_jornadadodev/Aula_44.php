@@ -14,8 +14,8 @@
         
         */
 
-        $txt = isset($_GET["texto"]) ? $_GET["texto"] : "A chave não existe"; //Pega a varialvel Texto digitada na URL  https://localhost/site1/exec.php?texto=Texto%20passado%20na%20URL
-        $txt2 = isset($_GET["texto2"]) ? $_GET["texto2"] : "A chave não existe"; //Pega a varialvel Texto digitada na URL  https://localhost/site1/exec.php?texto=Texto%20passado%20na%20URL
+        $txt = isset($_POST["edTABUADA"]) ? $_POST["edTABUADA"] : "A chave não existe"; //Pega a varialvel Texto digitada na URL  https://localhost/site1/exec.php?texto=Texto%20passado%20na%20URL
+        $txt2 = isset($_POST["edTABUADA"]) ? $_POST["edTABUADA"] : "A chave não existe"; //Pega a varialvel Texto digitada na URL  https://localhost/site1/exec.php?texto=Texto%20passado%20na%20URL
 		
 		
 		echo $txt . "<br>";
